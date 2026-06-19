@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Placement Preparation Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Placement Preparation Tracker</h1>
+
+    <div class="card">
+        Goal Section
+    </div>
+    <h2>Today's Goal</h2>
+    <input type="text" id="goal" placeholder="enter todays's goal">
+    <button onclick="saveGoal()">save Goal</button>
+    <p id="saveGoal"></p>
+    <hr>
+    <div class="card">
+        Notes Section
+    </div>
+    <h2>Notes</h2>
+    <textarea id="notes" placeholder="Write notes here"></textarea>
+    <br>
+    <button onclick="saveNotes()">Save Notes</button>
+    <hr>
+    
+    <h2>PYTHON</h2>
+    
+    <label><input type="checkbox" class="topic"> Variables</label><br>
+    <label><input type="checkbox" class="topic"> Loops</label><br>
+    <label><input type="checkbox" class="topic"> Functions</label><br>
+    <label><input type="checkbox" class="topic"> OOP</label><br>
+    
+    <h2>SQL</h2>
+    <label><input type="checkbox" class="topic"> SELECT</label><br>
+    <label><input type="checkbox" class="topic"> WHERE</label><br>
+    <label><input type="checkbox" class="topic"> JOIN</label><br>
+    <label><input type="checkbox" class="topic"> GROUP BY</label><br>
+
+    <h2>Aptitude</h2>
+    <label><input type="checkbox" class="topic"> Percentages</label><br>
+    <label><input type="checkbox" class="topic"> Profit & Loss</label><br>
+    <label><input type="checkbox" class="topic"> Time & Work</label><br>
+
+    <h2>Interview Preparation</h2>
+    <label><input type="checkbox" class="topic"> Python Questions</label><br>
+    <label><input type="checkbox" class="topic"> SQL Questions</label><br>
+    <label><input type="checkbox" class="topic"> HR Questions</label><br>
+
+    <hr>
+
+    <h3 id="progressText">Progress: 0%</h3>
+
+    <div class="progress-bar">
+        <div id="progress"></div>
+    </div>
+
+    <hr>
+
+    <h3>About Developer</h3>
+    <p><b>K. Navya</b></p>
+    <p>Email:kolanavya1305@gmail.com</p>
+
+    <a href="https://digitalheroesco.com" target="_blank">
+        <button>Built for Digital Heroes</button>
+    </a>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
